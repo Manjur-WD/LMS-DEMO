@@ -33,3 +33,8 @@ module.exports = {
    @tailwind utilities;
    
 5. Now run "npm run dev"
+
+# STEP 3
+Now install the dependencies for this project.
+run the following command to the terminal----
+
