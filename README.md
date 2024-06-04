@@ -26,10 +26,10 @@ module.exports = {
   plugins: [],
 }
 
-5. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+4. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
    
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
    
-7. Now run "npm run dev"
+5. Now run "npm run dev"
