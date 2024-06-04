@@ -32,5 +32,4 @@ module.exports = {
    @tailwind components;
    @tailwind utilities;
    
-7. npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-8. Now run "npm run dev"
+7. Now run "npm run dev"
