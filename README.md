@@ -53,6 +53,8 @@ chart.js
 daisyui 
 <br>
 axios 
+<br>
 react-hot-toast 
+<br>
 @tailwind/line-clamp
 
