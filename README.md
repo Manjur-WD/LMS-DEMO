@@ -10,3 +10,23 @@ Now, open the terminal inside the folder and run all the following commands to a
 6. git push -u origin main
    
 After running all the commands succesfully your project will be added to github.
+
+# STEP 2
+Now setup tailwindcss in your project, go to the project terminal
+1. npm i -D tailwindcss
+2. npx tailwindcss init
+3. Add the paths to all of your template files in your tailwind.config.js file.
+   /** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+4. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+5. npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+6. Now run "npm run dev"
