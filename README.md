@@ -36,8 +36,10 @@ module.exports = {
 
 # STEP 3
 Now install the dependencies for this project.
-run the following command to the terminal----
-npm install @redux/toolkit 
+run the following command to the terminal with npm install dependency_name----
+<br>
+@redux/toolkit 
+<br>
 react/redux 
 react-router-dom
 react-icons 
