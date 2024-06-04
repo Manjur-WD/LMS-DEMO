@@ -37,4 +37,14 @@ module.exports = {
 # STEP 3
 Now install the dependencies for this project.
 run the following command to the terminal----
+npm install @redux/toolkit 
+react/redux 
+react-router-dom
+react-icons 
+react-chartjs-2 
+chart.js 
+daisyui 
+axios 
+react-hot-toast 
+@tailwind/line-clamp
 
