@@ -8,4 +8,5 @@ Now, open the terminal inside the folder and run all the following commands to a
 4. git branch -M main
 5. git remote add origin "your_github_repo_link"
 6. git push -u origin main
+   
 After running all the commands succesfully your project will be added to github.
